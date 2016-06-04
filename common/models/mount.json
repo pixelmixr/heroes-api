@@ -1,0 +1,43 @@
+{
+  "name": "Mount",
+  "plural": "Mounts",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "attributeid": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "variation": {
+      "type": "boolean",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "franchise": {
+      "type": "string"
+    },
+    "releaseDate": {
+      "type": "date",
+      "required": true
+    },
+    "productid": {
+      "type": "number"
+    },
+    "category": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
