@@ -16,6 +16,7 @@
     "loopback": "^2.22.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^2.4.0",
+    "loopback-component-passport": "^2.1.0",
     "loopback-datasource-juggler": "^2.39.0",
     "request": "^2.72.0",
     "serve-favicon": "^2.0.1",
@@ -23,7 +24,6 @@
   },
   "devDependencies": {
     "eslint": "^2.5.3",
-    "eslint-config-loopback": "^4.0.0",
     "gulp": "^3.9.1",
     "gulp-eslint": "^2.0.0",
     "nsp": "^2.1.0"
