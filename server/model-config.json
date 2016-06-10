@@ -1,6 +1,7 @@
 {
   "_meta": {
     "sources": [
+      "../node_modules/loopback-component-passport/lib/models",
       "loopback/common/models",
       "loopback/server/models",
       "../common/models",
@@ -14,22 +15,22 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "users"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "users",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "users",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "users",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "users",
     "public": false
   },
   "Battleground": {
@@ -43,5 +44,21 @@
   "Mount": {
     "dataSource": "db",
     "public": true
+  },
+  "accessToken": {
+    "dataSource": "users",
+    "public": false
+  },
+  "userCredential": {
+    "dataSource": "users",
+    "public": false
+  },
+  "user": {
+    "dataSource": "users",
+    "public": false
+  },
+  "userIdentity": {
+    "dataSource": "users",
+    "public": false
   }
 }
